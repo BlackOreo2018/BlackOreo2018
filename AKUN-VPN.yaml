@@ -14,3 +14,18 @@ proxies:
       headers: 
         Host: sgdo1.aframdani.cloud
     udp: true
+  - name: SERVER 2
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: edcf32dc-1979-4d0e-936f-6c7f7ce98349
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alisg.pages.dev
+    network: ws
+    ws-opts: 
+      path: /vless
+      headers: 
+        Host: alisg.pages.dev
+    udp: true
