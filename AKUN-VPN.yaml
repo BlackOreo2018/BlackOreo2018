@@ -1,6 +1,6 @@
 proxies:
   - name: SERVER 1
-    server: quiz.int.vidio.com
+    server: 162.159.140.158
     port: 443
     type: vmess
     uuid: a0f25011-43ae-4f30-981b-d17c641e98b1
