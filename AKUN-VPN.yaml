@@ -13,4 +13,19 @@ proxies:
       path: /vless
       headers: 
         Host: digitalocean.xvft.eu.org
+    udp: true   
+ - name: Digitalocean, LLC (SG)
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: b0cb1b0b-f5ba-4ca4-a587-cfe48126bff7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgdo1.aframdani.cloud
+    network: ws
+    ws-opts: 
+      path: /vless-ws
+      headers: 
+        Host: sgdo1.aframdani.cloud
     udp: true
