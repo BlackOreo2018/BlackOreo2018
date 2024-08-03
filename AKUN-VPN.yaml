@@ -1,5 +1,5 @@
 proxies:
-  - name: BarokahVIP
+  - name: SERVER 1
     server: 104.22.5.240
     port: 443
     type: vmess
@@ -14,4 +14,20 @@ proxies:
       path: /vmessws
       headers: 
         Host: id1.ubaistore.my.id
-    udp: true
+    udp: true 
+
+  - name: SERVER 2
+    server: 104.22.4.240
+    port: 443
+    type: vless
+    uuid: 2ffd8058-8b39-47d1-98f5-46b6c18b40fb
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: digitalocean.xvft.eu.org
+    network: ws
+    ws-opts: 
+      path: null
+      headers: 
+        Host: digitalocean.xvft.eu.org
+    udp: true 
