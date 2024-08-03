@@ -14,4 +14,4 @@ proxies:
       path: /vmess
       headers: 
         Host: vvip.zerooostore.my.id
-    udp: true
+    udp: truee
