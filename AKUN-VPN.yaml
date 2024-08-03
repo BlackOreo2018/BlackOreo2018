@@ -1,31 +1,17 @@
 proxies:
-  - name: xl vidio sgdo
-    server: 104.22.4.240
+  - name: BarokahVIP
+    server: 104.22.5.240
     port: 443
-    type: vless
-    uuid: 2ffd8058-8b39-47d1-98f5-46b6c18b40fb
+    type: vmess
+    uuid: 3ca7af71-3e40-4afb-9667-3ccceb96f521
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: digitalocean.xvft.eu.org
+    servername: id1.ubaistore.my.id
     network: ws
     ws-opts: 
-      path: /vless
+      path: /vmessws
       headers: 
-        Host: digitalocean.xvft.eu.org
-    udp: true   
- - name: Digitalocean, LLC (SG)
-    server: quiz.int.vidio.com
-    port: 443
-    type: vless
-    uuid: b0cb1b0b-f5ba-4ca4-a587-cfe48126bff7
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgdo1.aframdani.cloud
-    network: ws
-    ws-opts: 
-      path: /vless-ws
-      headers: 
-        Host: sgdo1.aframdani.cloud
+        Host: id1.ubaistore.my.id
     udp: true
