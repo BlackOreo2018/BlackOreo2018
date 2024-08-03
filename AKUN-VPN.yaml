@@ -1,16 +1,17 @@
 proxies:
   - name: SERVER 1
-    server: 162.159.140.158
+    server: quiz.int.vidio.com
     port: 443
-    type: vless
-    uuid: 931e2620-c03d-4b9a-b53d-252e38232021
+    type: vmess
+    uuid: a0f25011-43ae-4f30-981b-d17c641e98b1
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: insperity.com.dpas.my.id
+    servername: vvip.zerooostore.my.id
     network: ws
     ws-opts: 
-      path: null
+      path: /vmess
       headers: 
-        Host: insperity.com.dpas.my.id
+        Host: vvip.zerooostore.my.id
     udp: true
