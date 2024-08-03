@@ -1,17 +1,16 @@
 proxies:
-  - name: SERVER 1
-    server: 162.159.140.158
+  - name: xl vidio sgdo
+    server: 104.22.4.240
     port: 443
-    type: vmess
-    uuid: a0f25011-43ae-4f30-981b-d17c641e98b1
-    alterId: 0
+    type: vless
+    uuid: 2ffd8058-8b39-47d1-98f5-46b6c18b40fb
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vvip.zerooostore.my.id
+    servername: digitalocean.xvft.eu.org
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /vless
       headers: 
-        Host: vvip.zerooostore.my.id
+        Host: digitalocean.xvft.eu.org
     udp: true
